@@ -1,0 +1,145 @@
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* global css ends here */
+ /* section 1 starts with nav-bar  */
+ .navArea{
+     background-color: #edeaeb;
+ }
+ .logoImg{
+    margin-left: 15rem;
+}
+.menuItem{
+   margin-right: 15rem;
+}
+.menuItem{
+    padding-top: .5rem;
+}
+.menuItem li{
+    margin-right:3.5rem ;
+}
+.menuItem li a{
+    color: #7a6666 !important;
+    font-size: 1em;
+    font-weight: 500;
+}
+.menuItem li a:hover , #Active {
+    color: #cb3362 !important;
+}
+ /* section 1 ends with nav-bar  */
+
+ /* section 2 strts with banner Area  */
+ .bannerArea {
+     background-color:#f8f8f8;
+     position: relative;
+ }
+ .BannerBg img{
+     width: 100%;
+ }
+ .itemDescription{
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    background-color: #ca315b;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 30rem;
+    right: 21rem;
+    z-index: 1;
+ }
+ .itemDescription::before{
+     content: '';
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     border-radius: 50%;
+     top: .8em;
+     left: -1em;
+     z-index: -1;
+     opacity: 0.6;
+     background-color: #c8c10d;
+ }
+ .itemDescription p{
+     font-size: 1.8em;
+     color: white;
+ }
+ /* section 2 ends with banner Area  */
+
+ /* section 3 starts with Blog post  */
+ .yougartArea{
+     background-color: #eae7e8;
+ }
+ .Yough3{
+     color: #7a6666;
+     font-size: 1em;
+ }
+ .Yough1{
+     color: #e32a62;
+     font-size: 1.5em;
+     font-weight: 700;
+     margin-bottom: .8em;
+ }
+ .YougP{
+     color:#7a6666 ;
+     font-size: .8em;
+ }
+ .yougartText{
+        padding-left: 18em;
+        padding-top: 5em;
+ }
+ .yougartImg{
+    padding-left: 18em;
+    padding-left: 1em;
+ }
+ /* section 3 ends with Blog post  */
+
+ /* section 4 starts with Services Area  */
+ .servicesArea{
+     background-color: #c8c10d;
+ }
+ .serviceAreaRow{
+     margin-left: 2rem;
+ }
+ .p-Logo{
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+ .p-Logo a{
+     text-decoration: none;
+     color: whitesmoke;
+     margin-bottom: .6em;
+ }
+ .p-Logo a:hover{
+     color:#e32a62 ;
+     transition: all .3s;
+ }
+ /* section 4 ends with Services Area  */
+ 
+ /* Section 5 starts with footer Area  */
+ .footerArea{
+     background-color: #cb3362;
+ }
+ .footerRow{
+    padding-left: 42em;
+    margin-bottom: 2em;
+ }
+ .SocislA:hover{
+     filter: invert(30%);
+     transition: all .3s;
+ }
+ .footerPone{
+     color: whitesmoke;
+     padding-left: 40.5em;
+ }
+ .footerPone p{
+     font-size: .9em;
+     color: whitesmoke;
+    
+ }
+ /* Section 5 Ends with footer Area  */
